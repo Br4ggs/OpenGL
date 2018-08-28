@@ -153,6 +153,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="includes\glad\glad.h" />
     <ClInclude Include="includes\KHR\khrplatform.h" />
     <ClInclude Include="ShaderUtils.h" />
@@ -161,6 +162,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="OpenGlStart.cpp" />
     <ClCompile Include="ShaderUtils.cpp" />
