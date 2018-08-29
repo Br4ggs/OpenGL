@@ -10,7 +10,9 @@ enum Camera_Movement
 	FORWARD,
 	BACKWARD,
 	LEFT,
-	RIGHT
+	RIGHT,
+	UP,
+	DOWN
 };
 
 // default values
@@ -23,6 +25,7 @@ const float ZOOM = 45.0f;
 class Camera
 {
 public:
+	// camera vectors
 	glm::vec3 position;
 	glm::vec3 front;
 	glm::vec3 up;
