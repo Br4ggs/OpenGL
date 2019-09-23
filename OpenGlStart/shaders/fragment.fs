@@ -8,8 +8,6 @@ uniform sampler2D texture2;
 
 uniform sampler2D screenTexture;
 
-uniform float time;
-
 const float A = 0.03;
 const float B = 200.0;
 const float C = 5.0;

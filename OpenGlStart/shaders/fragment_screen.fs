@@ -4,6 +4,10 @@ out vec4 FragColor;
 in vec2 TexCoords;
 
 uniform sampler2D screenTexture;
+uniform float time;
+uniform float offset;
+
+const float pi = 3.14159;
 
 void main()
 {
@@ -14,5 +18,6 @@ void main()
     float dx = 10.0 * (1.0 / Pixels);
     float dy = 10.0 * (1.0 / Pixels);
     vec2 Coord = vec2(dx * floor(TexCoords.x / dx), dy * floor(TexCoords.y / dy));
-    FragColor = texture(screenTexture, Coord);
+	Coord.x += cos(((time/15) + TexCoords.y) * 20f) * 0.05f;
+    FragColor = texture2D(screenTexture, Coord);
 } 
