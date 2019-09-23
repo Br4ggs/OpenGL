@@ -70,6 +70,7 @@ void Camera::processMouseMovement(float xOffset, float yOffset, GLboolean constr
 	updateCameraVectors();
 }
 
+// no longer working?
 void Camera::processMouseScroll(float yOffset)
 {
 	if (zoom >= 1.0f && zoom <= 45.0f)
