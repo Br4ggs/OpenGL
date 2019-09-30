@@ -6,12 +6,16 @@
 class Model
 {
 public:
-	Model(float vertexData[], int positionAttrib, int textAttrib);
-	//draw?
+	void init(float* vertexData, int size, int positionAttrib, int textAttrib);
+	void draw();
 private:
 	float* vertexData;
+	int size;
+	int vertexCount;
 	unsigned int vertexArrayObject;
 	unsigned int vertexBufferObject;
+	int positionAttrib;
+	int textAttrib;
 
 	void generateVAO();
 	void generateVBO(int positionAttrib, int textAttrib);

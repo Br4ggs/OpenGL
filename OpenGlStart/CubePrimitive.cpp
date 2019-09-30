@@ -1,5 +1,7 @@
 #include "CubePrimitive.h"
+#include <iostream>
 
 CubePrimitive::CubePrimitive()
-	: Model(this->vertexData, 3, 2)
-{};
+{
+	Model::init(vertexData, sizeof(vertexData), positionAttrib, textAttrib);
+};
