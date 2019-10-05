@@ -1,7 +1,6 @@
 #ifndef CUBE_PRIM_H
 #define CUBE_PRIM_H
 
-#include <glad/glad.h>
 #include "Model.h"
 
 class CubePrimitive : public Model

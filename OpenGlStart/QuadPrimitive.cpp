@@ -1,6 +1,6 @@
-#include "CubePrimitive.h"
+#include "QuadPrimitive.h"
 
-CubePrimitive::CubePrimitive()
+QuadPrimitive::QuadPrimitive()
 {
 	Model::init(vertexData, sizeof(vertexData), positionAttrib, textAttrib);
 };
