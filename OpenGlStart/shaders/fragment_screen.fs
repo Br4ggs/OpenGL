@@ -5,7 +5,6 @@ in vec2 TexCoords;
 
 uniform sampler2D screenTexture;
 uniform float time;
-uniform float offset;
 
 const float Pixels = 2000.0f;
 

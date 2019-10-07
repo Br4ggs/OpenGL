@@ -154,8 +154,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="CubePrimitive.h" />
     <ClInclude Include="includes\glad\glad.h" />
     <ClInclude Include="includes\KHR\khrplatform.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="QuadPrimitive.h" />
     <ClInclude Include="ShaderUtils.h" />
     <ClInclude Include="stb_image.h" />
     <ClInclude Include="stdafx.h" />
@@ -163,8 +166,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CubePrimitive.cpp" />
     <ClCompile Include="glad.c" />
+    <ClCompile Include="Model.cpp" />
     <ClCompile Include="OpenGlStart.cpp" />
+    <ClCompile Include="QuadPrimitive.cpp" />
     <ClCompile Include="ShaderUtils.cpp" />
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="stdafx.cpp">
